@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: oms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 2ad62ae3-86e7-42e0-98bc-b8f44ad71f3f
+        group: dev
+        file-extension: yml
